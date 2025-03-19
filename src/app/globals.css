@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer components {
+  .link{
+    @apply hover:underline cursor-pointer
+  }
+}
